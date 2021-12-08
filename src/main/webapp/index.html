@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<link rel="icon" href="Img/logoIF.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/zerar.css">
+    <title>Cadastro|Revisão de Português</title>
+</head>
+
+<body>
+    <nav>
+        <div id="navGeral">
+            <div>
+                <ul>
+                    <a href="AlunoServlet?acao=revisao">Revisão</a>
+                </ul>
+            </div>
+            <div id="imagem">
+                <a href="AlunoServlet?acao=principal"  style="font-weight:800; opacity:1;"><img src="Img/logoIF.png" alt=""></a>
+            </div>
+            <div style="display: flex;align-items: center;flex-direction: row;">
+                <a href="AlunoServlet?acao=sobre">Sobre nós</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="login-conteiner">
+            <h1>Bom, antes de começarmos...</h1>
+            <form action="AlunoServlet" method="POST"> 
+                <div class="espacamentoFormulario">
+                    <label for="nome">Nome:</label>
+                    <input type="nome" name="nome" placeholder="Digite seu nome" autocomplete="off">
+                </div>
+                <div style="display: flex;justify-content: space-between;align-items: center;">
+                    <h1 style="width: 120px;"></h1>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>Projeto interdisciplinar de PW-Português</div>
+    </footer>
+</body>
+
+</html>

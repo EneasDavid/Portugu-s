@@ -1,0 +1,405 @@
+nav a:hover {
+    font-weight: 600;
+    opacity: 1;
+}
+
+main button:hover {
+    font-weight: 800;
+    background-color: #74b4e0;
+    color: #ffffff;
+    border-radius: 8px;
+}
+*,
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:  #192744;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    height: 100px;
+    background-color: #0a94d5;
+}
+
+#navGeral {
+    padding: 1rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav link {
+    float: inline-end;
+}
+
+img nav #imagem {
+    height: 100%;
+    width: 5%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    height: auto;
+    font-weight: 400;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, 0.822);
+    font-family: Arial;
+    line-height: 1.47059;
+    font-size: 1.1rem;
+    margin: 0.4rem;
+}
+
+main {
+    flex: 1 0 auto;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    height: auto;
+}
+
+main .impar {
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+}
+
+main #par {
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+    background-color: #015ec5;
+}
+
+#conteiner {
+	height: auto;
+    width: auto;
+    background-color: #0a94d5;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ 	  box-shadow: -1px 2px 20px 0px;
+}
+
+.carta {
+    box-shadow: 0 0 5px 0px #e2e2e2;
+    cursor: pointer;
+    width: 800px;
+    height: 400px;
+    background-color: #0a94d5;
+    border-radius: 15px;
+    float: right;
+    margin-top: 10vh;
+    box-shadow: -1px 2px 20px 0px;
+}
+
+.ajusteDisplay {
+    height: auto;
+    display: flex;
+    margin: 5vh;
+    margin-top: 2rem;
+}
+
+#login-conteiner {
+    width: 315px;
+    height: 350px;
+    background-color: #0a94d5;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    box-shadow: -1px 2px 20px 0px;
+}
+
+#login-conteiner input,
+select {
+    background: #d6e7fc;
+    border-radius: 7px;
+    padding: 3px;
+    border: 0;
+    height: 2rem;
+    width: 14rem;
+    display: block;
+    font-family: Arial;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+#login-conteiner label {
+    height: 1.8rem;
+    display: block;
+    color: rgb(214 231 252);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 550;
+}
+
+#login-conteiner h1 {
+    padding-top: 20px;
+    height: 3rem;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(214 231 252);
+    line-height: 1.47059;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -.022em;
+}
+
+#questao-comentada {
+    padding: 20px;
+    height: auto;
+}
+
+#questao-comentada div {
+    height: auto;
+    font-family: Arial;
+    text-align: left;
+}
+
+#questao-comentada h1 {
+    font-family: Arial;
+    text-align: left;
+    color: rgb(214 231 252);
+    line-height: 1.47059;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    letter-spacing: -.022em;
+}
+h3{
+    font-size: small;
+    font-style: italic;
+}
+#login-conteiner form {
+    display: grid;
+    padding: 20px 30px;
+    height: 250px;
+    align-content: stretch;
+    justify-content: start;
+    align-items: start;
+}
+#comentario h2 {
+    font-family: Arial;
+    text-align: left;
+    line-height: 1.47059;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    letter-spacing: -.022em;
+    height: auto;
+    width: 250px;
+}
+
+#questao-comentada #pergunta {
+    padding-bottom: 20px;
+    font-family: Arial;
+    text-align: left;
+    line-height: 1.47059;
+    font-size: 1.1rem;
+}
+.about{
+	margin-left: 8px;
+	display: grid;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: start;
+    align-content: space-around;
+}
+.about h1{
+	font-size: 2.8rem;
+    color: #0a94d5;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.about h3{
+	width: 600px;
+	font-size: 1.4rem;
+    color: #d1eaf3;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.about li{
+	color: #d1eaf3;
+	font-size: 20px;
+    font-family: monospace;
+    letter-spacing: -.1rem;
+    font-weight: 600;
+}
+.aboutImg{
+	    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#comentario {
+    display: flex;
+    height: auto;
+    font-family: Arial;
+    text-align: left;
+}
+
+#david {
+    background: white;
+    height: 2rem;
+    display: block;
+    color: rgb(10 148 213);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 550;
+}
+#eneas {
+    padding-right: 10px;
+    display: flex;
+    align-items: baseline;
+    height: 1.8rem;
+    justify-content: space-between;
+    color: rgb(10 148 213);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 690;
+}
+#perguntas input{
+	border:0px;
+	height:15px;
+}
+#pertinencia{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    height: 1.2rem;
+    font-family: Arial;
+
+    line-height: 1.47059;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: -.022em;
+	
+}
+#perguntas{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#login-conteiner #serie {
+    display: flex;
+    align-items: baseline;
+    height: 1.8rem;
+    width: 8rem;
+    justify-content: space-between;
+}
+.h2{
+    font-family: monospace;
+    color: #d6e7fc;
+    line-height: 1.47059;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: -.07em;
+	height: auto;
+    width: 150px;
+}
+#quantidadeQuestao ul{
+	width: 100px;
+	display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+#perQuestao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#quantidadeQuestao li{
+    width: auto;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.espacamentoFormulario {
+    font-size: 1.5rem;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    height: 6rem;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+main button {
+    float: right;
+    margin: 0.2rem;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #74b4e0;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+footer {
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #0a94d5;
+    height: 6em;
+    width: auto;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, 0.822);
+    font-family: Arial;
+    line-height: 1.47059;
+    font-size: 1.1rem;
+}
+.resultado_certo{
+    color: rgba(255, 255, 255, 0.822);
+    
+}
+
+.resultado_errado{
+    color: red;
+
+}
